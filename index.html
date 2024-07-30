@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+    <link rel="stylesheet" href="css.css"> 
+    <title>Modern Login Page</title>
+</head>
+
+<body> 
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <div class="form">
+                <h1>Create Account</h1>
+                <br>
+                <span>or use your login for registeration</span>
+                <input class="regName" type="text" placeholder="Name">
+                <span class="Namemessige"></span>
+                <input class="regSurName" type="text" placeholder="Surname">
+                <span class="Surmessige"></span>
+                <input class="regLogin" type="text" placeholder="LogIn">
+                <span class="Regmessige"></span>
+                <input class="regPassword" type="password" placeholder="Password">
+                <span class="Pasmessige"></span>
+                <input class="regPasswordAgain" type="password" placeholder="Repeat password">
+                <span class="PasAmessige"></span>
+                <button class="singUp" onclick="SignUp()">Sign Up</button>
+                <br>
+                <span class="messige"></span>
+            </div>
+        </div>
+        
+        <div class="form-container sign-in">
+            <div class="form">
+                <h1>Sign In</h1>
+                <br>
+                <span>or use your login password</span>
+                <input class="Login" type="text" placeholder="LogIn">
+                <span class="LogInMessige"></span>
+                <input class="Password" type="password" placeholder="Password">
+                <span class="PasMessige"></span>
+                <button onclick="SignIn()">Sign In</button>
+                <br>
+                <span class="LogMessige"></span>
+            </div>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="script20.js"></script>
+</body>
+
+</html>
